@@ -1,10 +1,7 @@
-<?php
-namespace App\Core;
-
+<?php 
 class PayTr
 {
-    public $token;
-
+    public $token; 
     protected $request_url    = "https://www.paytr.com/odeme/api/get-token";
     protected $merchant_id    = 'XXXXXX';
     protected $merchant_key   = 'YYYYYYYYYYYYYY';
