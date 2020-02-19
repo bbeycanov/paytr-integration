@@ -355,24 +355,24 @@ class PayTr
     */
     public function setPostValue(){
       $this->post_vals = [
-        'merchant_id'        =>$this->getMerchantId(),
-  			'user_ip'            =>$this->getIpAddress(),
-  			'merchant_oid'       =>$this->getMerchantOrderId(),
-  			'email'              =>$this->getEmail(),
-  			'payment_amount'     =>$this->getPaymentAmount(),
-  			'paytr_token'        =>$this->getPaytrToken(),
-  			'user_basket'        =>$this->getBasket(),
-  			'debug_on'           =>$this->getDebugMode(),
-  			'no_installment'     =>$this->getInstallment(),
-  			'max_installment'    =>$this->getInstallmentLimit(),
-  			'user_name'          =>$this->getUserName(),
-  			'user_address'       =>$this->getAddress(),
-  			'user_phone'         =>$this->getPhone(),
-  			'merchant_ok_url'    =>$this->getSuccessUrl(),
-  			'merchant_fail_url'  =>$this->getFailUrl(),
-  			'timeout_limit'      =>$this->getTimeoutLimit(),
-  			'currency'           =>$this->getCurrency(),
-        'test_mode'          =>$this->getTestMode()
+        'merchant_id'        => $this->getMerchantId(),
+  		'user_ip'            => $this->getIpAddress(),
+  		'merchant_oid'       => $this->getMerchantOrderId(),
+  		'email'              => $this->getEmail(),
+  		'payment_amount'     => $this->getPaymentAmount(),
+  		'paytr_token'        => $this->getPaytrToken(),
+  		'user_basket'        => $this->getBasket(),
+  		'debug_on'           => $this->getDebugMode(),
+  		'no_installment'     => $this->getInstallment(),
+  		'max_installment'    => $this->getInstallmentLimit(),
+  		'user_name'          => $this->getUserName(),
+  		'user_address'       => $this->getAddress(),
+  		'user_phone'         => $this->getPhone(),
+  		'merchant_ok_url'    => $this->getSuccessUrl(),
+  		'merchant_fail_url'  => $this->getFailUrl(),
+  		'timeout_limit'      => $this->getTimeoutLimit(),
+  		'currency'           => $this->getCurrency(),
+        'test_mode'          => $this->getTestMode()
       ];
     }
 
