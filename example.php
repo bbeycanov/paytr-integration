@@ -9,7 +9,7 @@
   $paytr->setMerchantSalt('ZZZZZZZZZZZZZZ');             // set your merchant salt
   
   $paytr->setEmail('your_email');                        // example: example@example.com (string)            
-  $paytr->setPaymentAmount(your_price);                  // example: 10 (integer)
+  $paytr->setPaymentAmount(your_price);                  // example: 10 (decimal 8/2)
   $paytr->setUserName('your_fullname');                  // example: Jhon Deo  (string)  
   $paytr->setAddress('your_address');                    // example: H.Əliyev 5/81 45-ci məhəllə (string) 
   $paytr->setPhone('your_phone');                        // example: +994555555555 (string) 
